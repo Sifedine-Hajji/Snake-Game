@@ -1,0 +1,29 @@
+body {
+  background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+canvas {
+
+  background-color: rgba(0, 0, 0, 0.95);
+  margin: auto;
+  border: 15px solid rgba(184, 189, 194, 0.849);
+  border-radius: 20px;
+}
+
+h1 {
+  color: White;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.788);
+  text-align: center;
+  padding: 1%;
+  border: 1px solid white;
+}
+
+article{
+  display: flex;
+  align-items: center;
+}
+
